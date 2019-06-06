@@ -1,0 +1,20 @@
+elasticsearch:
+  host: 34.217.243.11
+  port: 80
+  user: 
+  password: 
+  ssl: false
+  
+redis:
+  host: 10.170.1.185
+  port: 6379
+  db: 0
+
+# Due to dev env differences, the index names in ES will vary.
+# This should hopefully be temporary until the names can be standarized.
+indexes:
+  productIndex: unbxd_product_index
+  luMetaIndex: unbxd_meta_lu
+
+trendsConfig:
+  isComputationEnabled: false
